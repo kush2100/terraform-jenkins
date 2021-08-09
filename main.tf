@@ -4,16 +4,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 3.27"
     }
-        random = {
-      source = "hashicorp/random"
-    }
-  }
-    backend "remote" {
-    organization = "kaushik Patel"
-
-    workspaces {
-      name = "gh-actions-demo"
-    }
   }
 }
 

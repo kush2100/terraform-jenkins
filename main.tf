@@ -157,5 +157,5 @@ resource "aws_security_group" "terraform_private_sg" {
 # key-pair ##
 resource "aws_key_pair" "class" {
   key_name   = "terraform-demo"
-  public_key = file("C:/Users/kapatel/devops-test.pub")
+  public_key = file("C:/Users/demo/devops-test.pub")
 }
